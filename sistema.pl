@@ -1,16 +1,8 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% perito.pl
-%%
-%% Expert System Shell:
-%% Permite carregar a base de conhecimento desejada.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+:- dynamic executa/2.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Predicado principal: perito/0
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 perito :-
     write(' Sistema Pericial'), nl,
-    write('Versao de 2024'), nl, nl,
+    write('Versao de 2025'), nl, nl,
     esperaOrdens(123).
 
 esperaOrdens(MC) :-
@@ -56,9 +48,6 @@ executa(MC,X) :-
 continua :-
     esperaOrdens(23).
 
-%%%%%%%%%%%%%%%
-% soluciona/0
-%%%%%%%%%%%%%%%
 soluciona :-
     abolish(conhece,3),
     asserta(conhece(def,def,def)), % apenas para o predicado
@@ -69,9 +58,6 @@ soluciona :-
 soluciona :-
     nl, nl, write('Nao foi encontrada resposta :-('), nl.
 
-%%%%%%%%%%%%%%%
-% questiona/2
-%%%%%%%%%%%%%%%
 questiona(Atributo,Valor) :-
     conhece(sim,Atributo,Valor).
 questiona(Atributo,Valor) :-
@@ -88,13 +74,6 @@ processa(R,Atributo,Valor) :-
     asserta(conhece(R,Atributo,Valor)),!,
     fail.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% questiona/3
-%
-% Recurso a Menus:
-% sao apresentados ao utilizador os valores
-% que cada atributo pode assumir.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 questiona(Atr,Val,_) :-
     conhece(sim,Atr,Val).
 questiona(Atr,_,_) :-

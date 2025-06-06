@@ -252,7 +252,6 @@ club(montpellier) :-
     capacidade(22.000).
 
 
-% Germany Clubs
 
 club(bayern_munich) :-
     pais(alemanha),
@@ -506,7 +505,6 @@ club(vfl_bochum) :-
     cidade('Bochum'),
     capacidade(26.0).
 
-% Italy Clubs
 
 club(napoli) :-
     pais(italia),
@@ -789,7 +787,6 @@ club(monza) :-
     capacidade(17.102).
 
 
-% Portugal Clubs
 
 club(sporting_cp) :-
     pais(portugal),
@@ -1043,7 +1040,6 @@ club(boavista) :-
     cidade('Porto'),
     capacidade(28.263).
 
-% Spain Clubs
 
 club(barcelona) :-
     pais(espanha),
@@ -1325,7 +1321,6 @@ club(real_valladolid) :-
     cidade('Valladolid'),
     capacidade(27.618).
 
-% England Clubs
 
 club(liverpool) :-
     pais(inglaterra),
@@ -1607,69 +1602,43 @@ club(southampton) :-
     cidade('Southampton'),
     capacidade(32.384).
 
-% Definindo o objetivo de clube
-objectivo(X) :- 
-    club(X).
+pais(X) :-
+    questiona(pais, X, [portugal, espanha, franca, alemanha, italia, inglaterra]).
 
-% Definindo a posição do clube na tabela
-posicao(X) :- 
-    questiona(posicao, X).
+posicao(X) :-
+    questiona(posicao, X, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]).
 
-% Definindo as vitórias do clube
-vitorias(X) :- 
-    questiona(vitorias, X).
-
-% Definindo os empates do clube
-empates(X) :- 
-    questiona(empates, X).
-
-% Definindo as derrotas do clube
-derrotas(X) :- 
-    questiona(derrotas, X).
-
-% Definindo a quantidade de gols marcados pelo clube
-golos_marcados(X) :- 
-    questiona(golos_marcados, X).
-
-golos_sofridos(X) :- 
-    questiona(golos_sofridos, X).
-
-% Definindo os pontos do clube
-pontos(X) :- 
-    questiona(pontos, X).
-
-% Definindo o ano de fundação do clube
-fundacao(X) :- 
-    questiona(fundacao, X).
-
-% Definindo o estádio do clube
-estadio(X) :- 
+estadio(X) :-
     questiona(estadio, X).
 
-% Definindo a cidade do clube
-cidade(X) :- 
+cidade(X) :-
     questiona(cidade, X).
 
-% Definindo a capacidade do estádio do clube
-capacidade(X) :- 
+vitorias(X) :-
+    questiona(vitorias, X).
+
+empates(X) :-
+    questiona(empates, X).
+
+derrotas(X) :-
+    questiona(derrotas, X).
+
+golos_marcados(X) :-
+    questiona(golos_marcados, X).
+
+golos_sofridos(X) :-
+    questiona(golos_sofridos, X).
+
+pontos(X) :-
+    questiona(pontos, X).
+
+fundacao(X) :-
+    questiona(fundacao, X).
+
+capacidade(X) :-
     questiona(capacidade, X).
 
-% Definindo o país do clube
-pais(X) :- 
-    questiona(pais, X).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Identificação da especialidade desta BC
 
-% Definindo o nome do clube
-club(X) :- 
-    pais(Pa),
-    posicao(P),
-    vitorias(V),
-    empates(E),
-    derrotas(D),
-    golos_marcados(GM),
-    golos_sofridos(GS),
-    pontos(Po),
-    fundacao(F),
-    estadio(Es),
-    cidade(C),
-    capacidade(Ca),
-    format('O ge ~w do país ~w tem a posição ~w, com ~w vitórias, ~w empates, ~w derrotas, ~w gols marcados, ~w gols sofridos, ~w pontos, fundado em ~w, no estádio ~w em ~w, com capacidade de ~w pessoas.', [X, Pa, P, V, E, D, GM, GS, Po, F, Es, C, Ca]).
+objectivo(X) :- club(X).
