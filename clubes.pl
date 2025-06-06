@@ -1,5 +1,6 @@
 :- discontiguous club/1.
 club(paris_sg) :-
+    pais(franca),
     posicao(1),
     vitorias(26),
     empates(6),
@@ -13,6 +14,7 @@ club(paris_sg) :-
     capacidade(48.583).
 
 club(marseille) :-
+    pais(franca),
     posicao(2),
     vitorias(20),
     empates(5),
@@ -26,6 +28,7 @@ club(marseille) :-
     capacidade(67.394).
 
 club(monaco) :-
+    pais(franca),
     posicao(3),
     vitorias(18),
     empates(7),
@@ -39,6 +42,7 @@ club(monaco) :-
     capacidade(18.525).
 
 club(ogc_nice) :-
+    pais(franca),
     posicao(4),
     vitorias(17),
     empates(9),
@@ -52,6 +56,7 @@ club(ogc_nice) :-
     capacidade(36.178).
 
 club(losc_lille) :-
+    pais(franca),
     posicao(5),
     vitorias(17),
     empates(9),
@@ -65,6 +70,7 @@ club(losc_lille) :-
     capacidade(50.186).
 
 club(olympique_lyon) :-
+    pais(franca),
     posicao(6),
     vitorias(17),
     empates(6),
@@ -78,6 +84,7 @@ club(olympique_lyon) :-
     capacidade(59.186).
 
 club(r_strasbourg) :-
+    pais(franca),
     posicao(7),
     vitorias(16),
     empates(9),
@@ -91,6 +98,7 @@ club(r_strasbourg) :-
     capacidade(26.109).
 
 club(lens) :-
+    pais(franca),
     posicao(8),
     vitorias(15),
     empates(7),
@@ -104,6 +112,7 @@ club(lens) :-
     capacidade(38.223).
 
 club(stade_brestois) :-
+    pais(franca),
     posicao(9),
     vitorias(15),
     empates(5),
@@ -117,6 +126,7 @@ club(stade_brestois) :-
     capacidade(15.220).
 
 club(toulouse) :-
+    pais(franca),
     posicao(10),
     vitorias(11),
     empates(9),
@@ -130,6 +140,7 @@ club(toulouse) :-
     capacidade(33.150).
 
 club(aj_auxerre) :-
+    pais(franca),
     posicao(11),
     vitorias(11),
     empates(9),
@@ -143,6 +154,7 @@ club(aj_auxerre) :-
     capacidade(18.541).
 
 club(stade_rennais) :-
+    pais(franca),
     posicao(12),
     vitorias(13),
     empates(2),
@@ -156,6 +168,7 @@ club(stade_rennais) :-
     capacidade(29.778).
 
 club(fc_nantes) :-
+    pais(franca),
     posicao(13),
     vitorias(8),
     empates(12),
@@ -169,6 +182,7 @@ club(fc_nantes) :-
     capacidade(35.322).
 
 club(angers_sco) :-
+    pais(franca),
     posicao(14),
     vitorias(10),
     empates(6),
@@ -182,6 +196,7 @@ club(angers_sco) :-
     capacidade(19.350).
 
 club(le_havre_ac) :-
+    pais(franca),
     posicao(15),
     vitorias(10),
     empates(4),
@@ -195,6 +210,7 @@ club(le_havre_ac) :-
     capacidade(25.178).
 
 club(stade_reims) :-
+    pais(franca),
     posicao(16),
     vitorias(8),
     empates(9),
@@ -208,6 +224,7 @@ club(stade_reims) :-
     capacidade(20.519).
 
 club(saint_etienne) :-
+    pais(franca),
     posicao(17),
     vitorias(8),
     empates(6),
@@ -221,6 +238,7 @@ club(saint_etienne) :-
     capacidade(41.965).
 
 club(montpellier) :-
+    pais(franca),
     posicao(18),
     vitorias(4),
     empates(4),
@@ -237,6 +255,7 @@ club(montpellier) :-
 % Germany Clubs
 
 club(bayern_munich) :-
+    pais(alemanha),
     posicao(1),
     vitorias(25),
     empates(7),
@@ -250,6 +269,7 @@ club(bayern_munich) :-
     capacidade(75.0).
 
 club(b_leverkusen) :-
+    pais(alemanha),
     posicao(2),
     vitorias(19),
     empates(12),
@@ -263,6 +283,7 @@ club(b_leverkusen) :-
     capacidade(30.21).
 
 club(e_frankfurt) :-
+    pais(alemanha),
     posicao(3),
     vitorias(17),
     empates(9),
@@ -276,6 +297,7 @@ club(e_frankfurt) :-
     capacidade(58.0).
 
 club(bor_dortmund) :-
+    pais(alemanha),
     posicao(4),
     vitorias(17),
     empates(6),
@@ -289,6 +311,7 @@ club(bor_dortmund) :-
     capacidade(81.365).
 
 club(sc_freiburg) :-
+    pais(alemanha),
     posicao(5),
     vitorias(16),
     empates(7),
@@ -302,6 +325,7 @@ club(sc_freiburg) :-
     capacidade(34.7).
 
 club(fsv_mainz_05) :-
+    pais(alemanha),
     posicao(6),
     vitorias(14),
     empates(10),
@@ -315,6 +339,7 @@ club(fsv_mainz_05) :-
     capacidade(33.305).
 
 club(rb_leipzig) :-
+    pais(alemanha),
     posicao(7),
     vitorias(13),
     empates(12),
@@ -328,6 +353,7 @@ club(rb_leipzig) :-
     capacidade(47.069).
 
 club(werder_bremen) :-
+    pais(alemanha),
     posicao(8),
     vitorias(14),
     empates(9),
@@ -341,6 +367,7 @@ club(werder_bremen) :-
     capacidade(42.1).
 
 club(vfb_stuttgart) :-
+    pais(alemanha),
     posicao(9),
     vitorias(14),
     empates(8),
@@ -354,6 +381,7 @@ club(vfb_stuttgart) :-
     capacidade(60.449).
 
 club(bor_m_gladbach) :-
+    pais(alemanha),
     posicao(10),
     vitorias(13),
     empates(6),
@@ -367,6 +395,7 @@ club(bor_m_gladbach) :-
     capacidade(54.042).
 
 club(vfl_wolfsburg) :-
+    pais(alemanha),
     posicao(11),
     vitorias(11),
     empates(10),
@@ -380,6 +409,7 @@ club(vfl_wolfsburg) :-
     capacidade(28.917).
 
 club(fc_augsburg) :-
+    pais(alemanha),
     posicao(12),
     vitorias(11),
     empates(10),
@@ -393,6 +423,7 @@ club(fc_augsburg) :-
     capacidade(30.66).
 
 club(union_berlin) :-
+    pais(alemanha),
     posicao(13),
     vitorias(10),
     empates(10),
@@ -406,6 +437,7 @@ club(union_berlin) :-
     capacidade(22.012).
 
 club(fc_st_pauli) :-
+    pais(alemanha),
     posicao(14),
     vitorias(8),
     empates(8),
@@ -419,6 +451,7 @@ club(fc_st_pauli) :-
     capacidade(29.546).
 
 club(tsg_hoffenheim) :-
+    pais(alemanha),
     posicao(15),
     vitorias(7),
     empates(11),
@@ -432,6 +465,7 @@ club(tsg_hoffenheim) :-
     capacidade(30.15).
 
 club(heidenheim) :-
+    pais(alemanha),
     posicao(16),
     vitorias(8),
     empates(5),
@@ -445,6 +479,7 @@ club(heidenheim) :-
     capacidade(15.0).
 
 club(holstein_kiel) :-
+    pais(alemanha),
     posicao(17),
     vitorias(6),
     empates(7),
@@ -458,6 +493,7 @@ club(holstein_kiel) :-
     capacidade(15.034).
 
 club(vfl_bochum) :-
+    pais(alemanha),
     posicao(18),
     vitorias(6),
     empates(7),
@@ -473,6 +509,7 @@ club(vfl_bochum) :-
 % Italy Clubs
 
 club(napoli) :-
+    pais(italia),
     posicao(1),
     vitorias(23),
     empates(10),
@@ -486,6 +523,7 @@ club(napoli) :-
     capacidade(54.726).
 
 club(inter) :-
+    pais(italia),
     posicao(2),
     vitorias(23),
     empates(9),
@@ -499,6 +537,7 @@ club(inter) :-
     capacidade(75.923).
 
 club(atalanta_bc) :-
+    pais(italia),
     posicao(3),
     vitorias(22),
     empates(8),
@@ -512,6 +551,7 @@ club(atalanta_bc) :-
     capacidade(24.95).
 
 club(juventus) :-
+    pais(italia),
     posicao(4),
     vitorias(17),
     empates(16),
@@ -525,6 +565,7 @@ club(juventus) :-
     capacidade(41.507).
 
 club(as_roma) :-
+    pais(italia),
     posicao(5),
     vitorias(19),
     empates(9),
@@ -538,6 +579,7 @@ club(as_roma) :-
     capacidade(70.634).
 
 club(lazio) :-
+    pais(italia),
     posicao(6),
     vitorias(18),
     empates(11),
@@ -551,6 +593,7 @@ club(lazio) :-
     capacidade(70.634).
 
 club(fiorentina) :-
+    pais(italia),
     posicao(7),
     vitorias(18),
     empates(8),
@@ -564,6 +607,7 @@ club(fiorentina) :-
     capacidade(43.147).
 
 club(bologna) :-
+    pais(italia),
     posicao(8),
     vitorias(16),
     empates(14),
@@ -577,6 +621,7 @@ club(bologna) :-
     capacidade(36.462).
 
 club(ac_milan) :-
+    pais(italia),
     posicao(9),
     vitorias(17),
     empates(9),
@@ -590,6 +635,7 @@ club(ac_milan) :-
     capacidade(75.923).
 
 club(como) :-
+    pais(italia),
     posicao(10),
     vitorias(13),
     empates(10),
@@ -603,6 +649,7 @@ club(como) :-
     capacidade(13.602).
 
 club(torino) :-
+    pais(italia),
     posicao(11),
     vitorias(10),
     empates(14),
@@ -616,6 +663,7 @@ club(torino) :-
     capacidade(28.177).
 
 club(udinese) :-
+    pais(italia),
     posicao(12),
     vitorias(12),
     empates(8),
@@ -629,6 +677,7 @@ club(udinese) :-
     capacidade(25.144).
 
 club(genoa) :-
+    pais(italia),
     posicao(13),
     vitorias(9),
     empates(13),
@@ -642,6 +691,7 @@ club(genoa) :-
     capacidade(34.901).
 
 club(cagliari) :-
+    pais(italia),
     posicao(14),
     vitorias(9),
     empates(9),
@@ -655,6 +705,7 @@ club(cagliari) :-
     capacidade(16.365).
 
 club(hellas_verona) :-
+    pais(italia),
     posicao(15),
     vitorias(9),
     empates(7),
@@ -668,6 +719,7 @@ club(hellas_verona) :-
     capacidade(39.211).
 
 club(parma) :-
+    pais(italia),
     posicao(16),
     vitorias(6),
     empates(15),
@@ -681,6 +733,7 @@ club(parma) :-
     capacidade(22.352).
 
 club(lecce) :-
+    pais(italia),
     posicao(17),
     vitorias(7),
     empates(10),
@@ -694,6 +747,7 @@ club(lecce) :-
     capacidade(31.559).
 
 club(fc_empoli) :-
+    pais(italia),
     posicao(18),
     vitorias(6),
     empates(13),
@@ -707,6 +761,7 @@ club(fc_empoli) :-
     capacidade(19.847).
 
 club(venezia) :-
+    pais(italia),
     posicao(19),
     vitorias(5),
     empates(14),
@@ -720,6 +775,7 @@ club(venezia) :-
     capacidade(12.048).
 
 club(monza) :-
+    pais(italia),
     posicao(20),
     vitorias(3),
     empates(9),
@@ -736,6 +792,7 @@ club(monza) :-
 % Portugal Clubs
 
 club(sporting_cp) :-
+    pais(portugal),
     posicao(1),
     vitorias(25),
     empates(7),
@@ -749,6 +806,7 @@ club(sporting_cp) :-
     capacidade(50.095).
 
 club(benfica) :-
+    pais(portugal),
     posicao(2),
     vitorias(25),
     empates(5),
@@ -762,6 +820,7 @@ club(benfica) :-
     capacidade(65.592).
 
 club(fc_porto) :-
+    pais(portugal),
     posicao(3),
     vitorias(22),
     empates(5),
@@ -775,6 +834,7 @@ club(fc_porto) :-
     capacidade(50.033).
 
 club(sc_braga) :-
+    pais(portugal),
     posicao(4),
     vitorias(19),
     empates(9),
@@ -788,6 +848,7 @@ club(sc_braga) :-
     capacidade(30.286).
 
 club(santa_clara) :-
+    pais(portugal),
     posicao(5),
     vitorias(17),
     empates(6),
@@ -801,6 +862,7 @@ club(santa_clara) :-
     capacidade(12.5).
 
 club(vit_guimaraes) :-
+    pais(portugal),
     posicao(6),
     vitorias(14),
     empates(12),
@@ -814,6 +876,7 @@ club(vit_guimaraes) :-
     capacidade(30.029).
 
 club(famalicao) :-
+    pais(portugal),
     posicao(7),
     vitorias(12),
     empates(11),
@@ -827,6 +890,7 @@ club(famalicao) :-
     capacidade(5.186).
 
 club(estoril) :-
+    pais(portugal),
     posicao(8),
     vitorias(12),
     empates(10),
@@ -840,6 +904,7 @@ club(estoril) :-
     capacidade(5.1).
 
 club(casa_pia) :-
+    pais(portugal),
     posicao(9),
     vitorias(12),
     empates(9),
@@ -853,6 +918,7 @@ club(casa_pia) :-
     capacidade(7.0).
 
 club(moreirense) :-
+    pais(portugal),
     posicao(10),
     vitorias(10),
     empates(10),
@@ -866,6 +932,7 @@ club(moreirense) :-
     capacidade(6.15).
 
 club(arouca) :-
+    pais(portugal),
     posicao(11),
     vitorias(9),
     empates(11),
@@ -879,6 +946,7 @@ club(arouca) :-
     capacidade(5.6).
 
 club(rio_ave) :-
+    pais(portugal),
     posicao(12),
     vitorias(9),
     empates(11),
@@ -892,6 +960,7 @@ club(rio_ave) :-
     capacidade(5.3).
 
 club(gil_vicente) :-
+    pais(portugal),
     posicao(13),
     vitorias(8),
     empates(10),
@@ -905,6 +974,7 @@ club(gil_vicente) :-
     capacidade(12.046).
 
 club(nacional) :-
+    pais(portugal),
     posicao(14),
     vitorias(9),
     empates(7),
@@ -918,6 +988,7 @@ club(nacional) :-
     capacidade(5.2).
 
 club(estrela_amadora) :-
+    pais(portugal),
     posicao(15),
     vitorias(7),
     empates(8),
@@ -931,6 +1002,7 @@ club(estrela_amadora) :-
     capacidade(9.288).
 
 club(farense) :-
+    pais(portugal),
     posicao(16),
     vitorias(6),
     empates(9),
@@ -944,6 +1016,7 @@ club(farense) :-
     capacidade(7.0).
 
 club(avs_fs) :-
+    pais(portugal),
     posicao(17),
     vitorias(5),
     empates(12),
@@ -957,6 +1030,7 @@ club(avs_fs) :-
     capacidade(6.23).
 
 club(boavista) :-
+    pais(portugal),
     posicao(18),
     vitorias(6),
     empates(6),
@@ -972,6 +1046,7 @@ club(boavista) :-
 % Spain Clubs
 
 club(barcelona) :-
+    pais(espanha),
     posicao(1),
     vitorias(27),
     empates(4),
@@ -985,6 +1060,7 @@ club(barcelona) :-
     capacidade(55.926).
 
 club(real_madrid) :-
+    pais(espanha),
     posicao(2),
     vitorias(25),
     empates(6),
@@ -998,6 +1074,7 @@ club(real_madrid) :-
     capacidade(81.044).
 
 club(atletico_madrid) :-
+    pais(espanha),
     posicao(3),
     vitorias(21),
     empates(10),
@@ -1011,6 +1088,7 @@ club(atletico_madrid) :-
     capacidade(70.46).
 
 club(athletic_bilbao) :-
+    pais(espanha),
     posicao(4),
     vitorias(19),
     empates(13),
@@ -1024,6 +1102,7 @@ club(athletic_bilbao) :-
     capacidade(53.289).
 
 club(villarreal) :-
+    pais(espanha),
     posicao(5),
     vitorias(19),
     empates(10),
@@ -1037,6 +1116,7 @@ club(villarreal) :-
     capacidade(23.5).
 
 club(real_betis) :-
+    pais(espanha),
     posicao(6),
     vitorias(16),
     empates(11),
@@ -1050,6 +1130,7 @@ club(real_betis) :-
     capacidade(60.721).
 
 club(celta_de_vigo) :-
+    pais(espanha),
     posicao(7),
     vitorias(15),
     empates(7),
@@ -1063,6 +1144,7 @@ club(celta_de_vigo) :-
     capacidade(24.87).
 
 club(rayo_vallecano) :-
+    pais(espanha),
     posicao(8),
     vitorias(13),
     empates(12),
@@ -1076,6 +1158,7 @@ club(rayo_vallecano) :-
     capacidade(14.708).
 
 club(ca_osasuna) :-
+    pais(espanha),
     posicao(9),
     vitorias(12),
     empates(15),
@@ -1089,6 +1172,7 @@ club(ca_osasuna) :-
     capacidade(23.576).
 
 club(rcd_mallorca) :-
+    pais(espanha),
     posicao(10),
     vitorias(13),
     empates(8),
@@ -1102,6 +1186,7 @@ club(rcd_mallorca) :-
     capacidade(26.02).
 
 club(real_sociedad) :-
+    pais(espanha),
     posicao(11),
     vitorias(13),
     empates(7),
@@ -1115,6 +1200,7 @@ club(real_sociedad) :-
     capacidade(39.313).
 
 club(valencia) :-
+    pais(espanha),
     posicao(12),
     vitorias(11),
     empates(12),
@@ -1128,6 +1214,7 @@ club(valencia) :-
     capacidade(49.43).
 
 club(getafe) :-
+    pais(espanha),
     posicao(13),
     vitorias(11),
     empates(9),
@@ -1141,6 +1228,7 @@ club(getafe) :-
     capacidade(16.8).
 
 club(alaves) :-
+    pais(espanha),
     posicao(14),
     vitorias(10),
     empates(11),
@@ -1154,6 +1242,7 @@ club(alaves) :-
     capacidade(19.84).
 
 club(girona) :-
+    pais(espanha),
     posicao(15),
     vitorias(11),
     empates(8),
@@ -1167,6 +1256,7 @@ club(girona) :-
     capacidade(14.624).
 
 club(sevilla_fc) :-
+    pais(espanha),
     posicao(16),
     vitorias(10),
     empates(11),
@@ -1180,6 +1270,7 @@ club(sevilla_fc) :-
     capacidade(43.883).
 
 club(espanyol) :-
+    pais(espanha),
     posicao(17),
     vitorias(10),
     empates(9),
@@ -1193,6 +1284,7 @@ club(espanyol) :-
     capacidade(40.5).
 
 club(cd_leganes) :-
+    pais(espanha),
     posicao(18),
     vitorias(8),
     empates(13),
@@ -1206,6 +1298,7 @@ club(cd_leganes) :-
     capacidade(12.454).
 
 club(ud_las_palmas) :-
+    pais(espanha),
     posicao(19),
     vitorias(8),
     empates(8),
@@ -1219,6 +1312,7 @@ club(ud_las_palmas) :-
     capacidade(32.4).
 
 club(real_valladolid) :-
+    pais(espanha),
     posicao(20),
     vitorias(4),
     empates(4),
@@ -1234,6 +1328,7 @@ club(real_valladolid) :-
 % England Clubs
 
 club(liverpool) :-
+    pais(inglaterra),
     posicao(1),
     vitorias(37),
     empates(25),
@@ -1247,6 +1342,7 @@ club(liverpool) :-
     capacidade(61.276).
 
 club(arsenal) :-
+    pais(inglaterra),
     posicao(2),
     vitorias(37),
     empates(19),
@@ -1260,6 +1356,7 @@ club(arsenal) :-
     capacidade(60.704).
 
 club(newcastle) :-
+    pais(inglaterra),
     posicao(3),
     vitorias(37),
     empates(20),
@@ -1273,6 +1370,7 @@ club(newcastle) :-
     capacidade(52.258).
 
 club(chelsea) :-
+    pais(inglaterra),
     posicao(4),
     vitorias(37),
     empates(19),
@@ -1286,6 +1384,7 @@ club(chelsea) :-
     capacidade(41.631).
 
 club(aston_villa) :-
+    pais(inglaterra),
     posicao(5),
     vitorias(37),
     empates(19),
@@ -1299,6 +1398,7 @@ club(aston_villa) :-
     capacidade(42.918).
 
 club(man_city) :-
+    pais(inglaterra),
     posicao(6),
     vitorias(36),
     empates(19),
@@ -1312,6 +1412,7 @@ club(man_city) :-
     capacidade(55.097).
 
 club(forest) :-
+    pais(inglaterra),
     posicao(7),
     vitorias(37),
     empates(19),
@@ -1325,6 +1426,7 @@ club(forest) :-
     capacidade(30.404).
 
 club(brighton) :-
+    pais(inglaterra),
     posicao(8),
     vitorias(37),
     empates(15),
@@ -1338,6 +1440,7 @@ club(brighton) :-
     capacidade(31.876).
 
 club(brentford) :-
+    pais(inglaterra),
     posicao(9),
     vitorias(37),
     empates(16),
@@ -1351,6 +1454,7 @@ club(brentford) :-
     capacidade(17.25).
 
 club(fulham) :-
+    pais(inglaterra),
     posicao(10),
     vitorias(37),
     empates(15),
@@ -1364,6 +1468,7 @@ club(fulham) :-
     capacidade(29.589).
 
 club(bournemouth) :-
+    pais(inglaterra),
     posicao(11),
     vitorias(36),
     empates(14),
@@ -1377,6 +1482,7 @@ club(bournemouth) :-
     capacidade(11.307).
 
 club(crystal_palace) :-
+    pais(inglaterra),
     posicao(12),
     vitorias(36),
     empates(12),
@@ -1390,6 +1496,7 @@ club(crystal_palace) :-
     capacidade(25.486).
 
 club(everton) :-
+    pais(inglaterra),
     posicao(13),
     vitorias(37),
     empates(10),
@@ -1403,6 +1510,7 @@ club(everton) :-
     capacidade(39.414).
 
 club(wolves) :-
+    pais(inglaterra),
     posicao(14),
     vitorias(36),
     empates(12),
@@ -1416,6 +1524,7 @@ club(wolves) :-
     capacidade(31.75).
 
 club(west_ham) :-
+    pais(inglaterra),
     posicao(15),
     vitorias(37),
     empates(10),
@@ -1429,6 +1538,7 @@ club(west_ham) :-
     capacidade(62.5).
 
 club(man_utd) :-
+    pais(inglaterra),
     posicao(16),
     vitorias(37),
     empates(10),
@@ -1442,6 +1552,7 @@ club(man_utd) :-
     capacidade(74.879).
 
 club(tottenham) :-
+    pais(inglaterra),
     posicao(17),
     vitorias(37),
     empates(11),
@@ -1455,6 +1566,7 @@ club(tottenham) :-
     capacidade(62.85).
 
 club(leicester) :-
+    pais(inglaterra),
     posicao(18),
     vitorias(37),
     empates(6),
@@ -1468,6 +1580,7 @@ club(leicester) :-
     capacidade(32.259).
 
 club(ipswich) :-
+    pais(inglaterra),
     posicao(19),
     vitorias(37),
     empates(4),
@@ -1481,6 +1594,7 @@ club(ipswich) :-
     capacidade(30.056).
 
 club(southampton) :-
+    pais(inglaterra),
     posicao(20),
     vitorias(37),
     empates(2),
@@ -1540,8 +1654,13 @@ cidade(X) :-
 capacidade(X) :- 
     questiona(capacidade, X).
 
+% Definindo o país do clube
+pais(X) :- 
+    questiona(pais, X).
+
 % Definindo o nome do clube
 club(X) :- 
+    pais(Pa),
     posicao(P),
     vitorias(V),
     empates(E),
@@ -1553,4 +1672,4 @@ club(X) :-
     estadio(Es),
     cidade(C),
     capacidade(Ca),
-    format('O ge ~w tem a posição ~w, com ~w vitórias, ~w empates, ~w derrotas, ~w gols marcados, ~w gols sofridos, ~w pontos, fundado em ~w, no estádio ~w em ~w, com capacidade de ~w pessoas.', [X, P, V, E, D, GM, GS, Po, F, Es, C, Ca]).
+    format('O ge ~w do país ~w tem a posição ~w, com ~w vitórias, ~w empates, ~w derrotas, ~w gols marcados, ~w gols sofridos, ~w pontos, fundado em ~w, no estádio ~w em ~w, com capacidade de ~w pessoas.', [X, Pa, P, V, E, D, GM, GS, Po, F, Es, C, Ca]).
