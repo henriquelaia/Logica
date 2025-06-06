@@ -7,7 +7,7 @@ club(paris_sg) :-
     golos_marcados(92),
     golos_sofridos(35),
     pontos(84),
-    fundacao(15_03_1892),
+    fundacao('15/03/1892'),
     estadio('Parc_des_Princes'),
     cidade('Paris'),
     capacidade(48.583).
@@ -20,7 +20,7 @@ club(marseille) :-
     golos_marcados(74),
     golos_sofridos(47),
     pontos(65),
-    fundacao(01_10_1886),
+    fundacao('01/10/1886'),
     estadio('Orange_Vélodrome'),
     cidade('Marseille'),
     capacidade(67.394).
@@ -33,7 +33,7 @@ club(monaco) :-
     golos_marcados(63),
     golos_sofridos(41),
     pontos(61),
-    fundacao(09_12_1892),
+    fundacao('09/12/1892'),
     estadio('Stade_Louis-II'),
     cidade('Monaco'),
     capacidade(18.525).
@@ -46,7 +46,7 @@ club(ogc_nice) :-
     golos_marcados(66),
     golos_sofridos(41),
     pontos(60),
-    fundacao(10_03_1905),
+    fundacao('10/03/1905'),
     estadio('Allianz_Riviera'),
     cidade('Nizza'),
     capacidade(36.178).
@@ -59,7 +59,7 @@ club(losc_lille) :-
     golos_marcados(52),
     golos_sofridos(36),
     pontos(60),
-    fundacao(01_03_1874),
+    fundacao('01/03/1874'),
     estadio('Decathlon_Arena-Stade_Pierre-Mauroy'),
     cidade('Villeneuve-dAscq'),
     capacidade(50.186).
@@ -72,7 +72,7 @@ club(olympique_lyon) :-
     golos_marcados(65),
     golos_sofridos(46),
     pontos(57),
-    fundacao(23_11_1880),
+    fundacao('23/11/1880'),
     estadio('Groupama_Stadium'),
     cidade('Décines-Charpieu'),
     capacidade(59.186).
@@ -85,7 +85,7 @@ club(r_strasbourg) :-
     golos_marcados(56),
     golos_sofridos(44),
     pontos(57),
-    fundacao(01_01_1865),
+    fundacao('01/01/1865'),
     estadio('Stade_de_la_Meinau'),
     cidade('Strasbourg'),
     capacidade(26.109).
@@ -98,7 +98,7 @@ club(lens) :-
     golos_marcados(42),
     golos_sofridos(39),
     pontos(52),
-    fundacao(24_07_1901),
+    fundacao('24/07/1901'),
     estadio('Stade_Bollaert-Delelis'),
     cidade('Lens'),
     capacidade(38.223).
@@ -111,7 +111,7 @@ club(stade_brestois) :-
     golos_marcados(52),
     golos_sofridos(59),
     pontos(50),
-    fundacao(09_10_1889),
+    fundacao('09/10/1889'),
     estadio('Stade_Francis-Le_Blé'),
     cidade('Brest'),
     capacidade(15.220).
@@ -124,7 +124,7 @@ club(toulouse) :-
     golos_marcados(44),
     golos_sofridos(43),
     pontos(42),
-    fundacao(21_12_1879),
+    fundacao('21/12/1879'),
     estadio('Stadium_Municipal'),
     cidade('Toulouse'),
     capacidade(33.150).
@@ -137,7 +137,7 @@ club(aj_auxerre) :-
     golos_marcados(48),
     golos_sofridos(51),
     pontos(42),
-    fundacao(01_01_1899),
+    fundacao('01/01/1899'),
     estadio('Stade_de_lAbbé-Deschamps'),
     cidade('Auxerre'),
     capacidade(18.541).
@@ -150,7 +150,7 @@ club(stade_rennais) :-
     golos_marcados(51),
     golos_sofridos(50),
     pontos(41),
-    fundacao(10_09_1905),
+    fundacao('10/09/1905'),
     estadio('Roazhon_Park'),
     cidade('Rennes'),
     capacidade(29.778).
@@ -163,7 +163,7 @@ club(fc_nantes) :-
     golos_marcados(39),
     golos_sofridos(52),
     pontos(36),
-    fundacao(01_06_1878),
+    fundacao('01/06/1878'),
     estadio('Stade_de_la_Beaujoire'),
     cidade('Nantes'),
     capacidade(35.322).
@@ -176,7 +176,7 @@ club(angers_sco) :-
     golos_marcados(32),
     golos_sofridos(53),
     pontos(36),
-    fundacao(13_01_1877),
+    fundacao('13/01/1877'),
     estadio('Stade_Raymond-Kopa'),
     cidade('Angers'),
     capacidade(19.350).
@@ -189,7 +189,7 @@ club(le_havre_ac) :-
     golos_marcados(40),
     golos_sofridos(71),
     pontos(34),
-    fundacao(01_01_1895),
+    fundacao('01/01/1895'),
     estadio('Stade_Océane'),
     cidade('Le Havre'),
     capacidade(25.178).
@@ -202,7 +202,7 @@ club(stade_reims) :-
     golos_marcados(33),
     golos_sofridos(47),
     pontos(33),
-    fundacao(24_04_1902),
+    fundacao('24/04/1902'),
     estadio('Stade_Auguste-Delaune'),
     cidade('Reims'),
     capacidade(20.519).
@@ -215,7 +215,7 @@ club(saint_etienne) :-
     golos_marcados(39),
     golos_sofridos(77),
     pontos(30),
-    fundacao(05_09_1882),
+    fundacao('05/09/1882'),
     estadio('Stade_Geoffroy-Guichard'),
     cidade('Saint-Etienne'),
     capacidade(41.965).
@@ -228,7 +228,7 @@ club(montpellier) :-
     golos_marcados(23),
     golos_sofridos(79),
     pontos(16),
-    fundacao(01_01_1884),
+    fundacao('01/01/1884'),
     estadio('Stade_de_la_Mosson'),
     cidade('Montpellier'),
     capacidade(22.000).
@@ -244,7 +244,7 @@ club(bayern_munich) :-
     golos_marcados(99),
     golos_sofridos(32),
     pontos(82),
-    fundacao('Feb 27, 1900'),
+    fundacao('27/02/1900'),
     estadio('Allianz Arena'),
     cidade('München'),
     capacidade(75.0).
@@ -257,7 +257,7 @@ club(b_leverkusen) :-
     golos_marcados(72),
     golos_sofridos(43),
     pontos(69),
-    fundacao('Jul 1, 1904'),
+    fundacao('01/07/1904'),
     estadio('BayArena'),
     cidade('Leverkusen'),
     capacidade(30.21).
@@ -270,7 +270,7 @@ club(e_frankfurt) :-
     golos_marcados(68),
     golos_sofridos(46),
     pontos(60),
-    fundacao('Mar 8, 1899'),
+    fundacao('08/03/1899'),
     estadio('Deutsche Bank Park'),
     cidade('Frankfurt (Main)'),
     capacidade(58.0).
@@ -283,7 +283,7 @@ club(bor_dortmund) :-
     golos_marcados(71),
     golos_sofridos(51),
     pontos(57),
-    fundacao('Dec 19, 1909'),
+    fundacao('19/12/1909'),
     estadio('SIGNAL IDUNA PARK'),
     cidade('Dortmund'),
     capacidade(81.365).
@@ -296,7 +296,7 @@ club(sc_freiburg) :-
     golos_marcados(49),
     golos_sofridos(53),
     pontos(55),
-    fundacao('May 30, 1904'),
+    fundacao('30/05/1904'),
     estadio('Europa-Park Stadion'),
     cidade('Freiburg'),
     capacidade(34.7).
@@ -309,7 +309,7 @@ club(fsv_mainz_05) :-
     golos_marcados(55),
     golos_sofridos(43),
     pontos(52),
-    fundacao('Mar 16, 1905'),
+    fundacao('16/03/1905'),
     estadio('Mewa Arena'),
     cidade('Mainz'),
     capacidade(33.305).
@@ -322,7 +322,7 @@ club(rb_leipzig) :-
     golos_marcados(53),
     golos_sofridos(48),
     pontos(51),
-    fundacao('May 19, 2009'),
+    fundacao('19/05/2009'),
     estadio('Red Bull Arena'),
     cidade('Leipzig'),
     capacidade(47.069).
@@ -335,7 +335,7 @@ club(werder_bremen) :-
     golos_marcados(54),
     golos_sofridos(57),
     pontos(51),
-    fundacao('Feb 4, 1899'),
+    fundacao('04/02/1899'),
     estadio('Weserstadion'),
     cidade('Bremen'),
     capacidade(42.1).
@@ -348,7 +348,7 @@ club(vfb_stuttgart) :-
     golos_marcados(64),
     golos_sofridos(53),
     pontos(50),
-    fundacao('Sep 9, 1893'),
+    fundacao('09/09/1893'),
     estadio('MHPArena Stuttgart'),
     cidade('Stuttgart'),
     capacidade(60.449).
@@ -361,7 +361,7 @@ club(bor_m_gladbach) :-
     golos_marcados(55),
     golos_sofridos(57),
     pontos(45),
-    fundacao('Aug 1, 1900'),
+    fundacao('01/08/1900'),
     estadio('Stadion im Borussia-Park'),
     cidade('Mönchengladbach'),
     capacidade(54.042).
@@ -374,7 +374,7 @@ club(vfl_wolfsburg) :-
     golos_marcados(56),
     golos_sofridos(54),
     pontos(43),
-    fundacao('Sep 12, 1945'),
+    fundacao('12/09/1945'),
     estadio('Volkswagen Arena'),
     cidade('Wolfsburg'),
     capacidade(28.917).
@@ -387,7 +387,7 @@ club(fc_augsburg) :-
     golos_marcados(35),
     golos_sofridos(51),
     pontos(43),
-    fundacao('Aug 8, 1907'),
+    fundacao('08/08/1907'),
     estadio('WWK ARENA'),
     cidade('Augsburg'),
     capacidade(30.66).
@@ -400,7 +400,7 @@ club(union_berlin) :-
     golos_marcados(35),
     golos_sofridos(51),
     pontos(40),
-    fundacao('Jan 20, 1966'),
+    fundacao('20/01/1966'),
     estadio('Stadion An der Alten Försterei'),
     cidade('Berlin'),
     capacidade(22.012).
@@ -413,7 +413,7 @@ club(fc_st_pauli) :-
     golos_marcados(28),
     golos_sofridos(41),
     pontos(32),
-    fundacao('May 15, 1910'),
+    fundacao('15/05/1910'),
     estadio('Millerntor-Stadion'),
     cidade('Hamburg'),
     capacidade(29.546).
@@ -426,7 +426,7 @@ club(tsg_hoffenheim) :-
     golos_marcados(46),
     golos_sofridos(68),
     pontos(32),
-    fundacao('Jul 1, 1899'),
+    fundacao('01/07/1899'),
     estadio('PreZero Arena'),
     cidade('Sinsheim'),
     capacidade(30.15).
@@ -439,7 +439,7 @@ club(heidenheim) :-
     golos_marcados(37),
     golos_sofridos(64),
     pontos(29),
-    fundacao('May 27, 1972'),
+    fundacao('27/05/1972'),
     estadio('Voith-Arena'),
     cidade('Heidenheim'),
     capacidade(15.0).
@@ -452,7 +452,7 @@ club(holstein_kiel) :-
     golos_marcados(49),
     golos_sofridos(80),
     pontos(25),
-    fundacao('Oct 7, 1900'),
+    fundacao('07/10/1900'),
     estadio('Holstein-Stadion'),
     cidade('Kiel'),
     capacidade(15.034).
@@ -465,7 +465,7 @@ club(vfl_bochum) :-
     golos_marcados(33),
     golos_sofridos(67),
     pontos(25),
-    fundacao('Jul 29, 1949'),
+    fundacao('29/07/1949'),
     estadio('Vonovia Ruhrstadion'),
     cidade('Bochum'),
     capacidade(26.0).
@@ -480,7 +480,7 @@ club(napoli) :-
     golos_marcados(57),
     golos_sofridos(27),
     pontos(79),
-    fundacao('Aug 1, 1926'),
+    fundacao('01/08/1926'),
     estadio('Diego Armando Maradona'),
     cidade('Napoli'),
     capacidade(54.726).
@@ -493,7 +493,7 @@ club(inter) :-
     golos_marcados(77),
     golos_sofridos(35),
     pontos(78),
-    fundacao('Mar 9, 1908'),
+    fundacao('09/03/1908'),
     estadio('Giuseppe Meazza'),
     cidade('Milano'),
     capacidade(75.923).
@@ -506,7 +506,7 @@ club(atalanta_bc) :-
     golos_marcados(76),
     golos_sofridos(34),
     pontos(74),
-    fundacao('Oct 17, 1907'),
+    fundacao('17/10/1907'),
     estadio('Gewiss Stadium'),
     cidade('Bergamo'),
     capacidade(24.95).
@@ -519,7 +519,7 @@ club(juventus) :-
     golos_marcados(55),
     golos_sofridos(33),
     pontos(67),
-    fundacao('Nov 1, 1897'),
+    fundacao('01/11/1897'),
     estadio('Allianz Stadium'),
     cidade('Torino'),
     capacidade(41.507).
@@ -532,7 +532,7 @@ club(as_roma) :-
     golos_marcados(54),
     golos_sofridos(35),
     pontos(66),
-    fundacao('Jun 7, 1927'),
+    fundacao('07/06/1927'),
     estadio('Olimpico di Roma'),
     cidade('Roma'),
     capacidade(70.634).
@@ -545,7 +545,7 @@ club(lazio) :-
     golos_marcados(61),
     golos_sofridos(48),
     pontos(65),
-    fundacao('Jan 9, 1900'),
+    fundacao('09/01/1900'),
     estadio('Olimpico di Roma'),
     cidade('Roma'),
     capacidade(70.634).
@@ -558,7 +558,7 @@ club(fiorentina) :-
     golos_marcados(57),
     golos_sofridos(39),
     pontos(62),
-    fundacao('Aug 29, 1926'),
+    fundacao('29/08/1926'),
     estadio('Artemio Franchi'),
     cidade('Firenze'),
     capacidade(43.147).
@@ -571,7 +571,7 @@ club(bologna) :-
     golos_marcados(56),
     golos_sofridos(44),
     pontos(62),
-    fundacao('Oct 3, 1909'),
+    fundacao('03/10/1909'),
     estadio('Stadio Renato Dall’Ara'),
     cidade('Bologna'),
     capacidade(36.462).
@@ -584,7 +584,7 @@ club(ac_milan) :-
     golos_marcados(59),
     golos_sofridos(43),
     pontos(60),
-    fundacao('Dec 16, 1899'),
+    fundacao('16/12/1899'),
     estadio('Giuseppe Meazza'),
     cidade('Milano'),
     capacidade(75.923).
@@ -597,7 +597,7 @@ club(como) :-
     golos_marcados(49),
     golos_sofridos(50),
     pontos(49),
-    fundacao('May 25, 1907'),
+    fundacao('25/05/1907'),
     estadio('Giuseppe Sinigaglia'),
     cidade('Como'),
     capacidade(13.602).
@@ -610,7 +610,7 @@ club(torino) :-
     golos_marcados(39),
     golos_sofridos(43),
     pontos(44),
-    fundacao('Dec 3, 1906'),
+    fundacao('03/12/1906'),
     estadio('Olimpico Grande Torino'),
     cidade('Torino'),
     capacidade(28.177).
@@ -623,7 +623,7 @@ club(udinese) :-
     golos_marcados(39),
     golos_sofridos(53),
     pontos(44),
-    fundacao('Jul 5, 1896'),
+    fundacao('05/07/1896'),
     estadio('Bluenergy Stadium'),
     cidade('Udine'),
     capacidade(25.144).
@@ -636,7 +636,7 @@ club(genoa) :-
     golos_marcados(34),
     golos_sofridos(48),
     pontos(40),
-    fundacao('Sep 7, 1893'),
+    fundacao('07/09/1893'),
     estadio('Luigi Ferraris'),
     cidade('Genova'),
     capacidade(34.901).
@@ -649,7 +649,7 @@ club(cagliari) :-
     golos_marcados(40),
     golos_sofridos(54),
     pontos(36),
-    fundacao('May 30, 1920'),
+    fundacao('30/05/1920'),
     estadio('Unipol Domus'),
     cidade('Cagliari'),
     capacidade(16.365).
@@ -662,7 +662,7 @@ club(hellas_verona) :-
     golos_marcados(32),
     golos_sofridos(65),
     pontos(34),
-    fundacao('Sep 30, 1903'),
+    fundacao('30/09/1903'),
     estadio('Marcantonio Bentegodi'),
     cidade('Verona'),
     capacidade(39.211).
@@ -675,7 +675,7 @@ club(parma) :-
     golos_marcados(41),
     golos_sofridos(56),
     pontos(33),
-    fundacao('Jul 27, 1913'),
+    fundacao('27/07/1913'),
     estadio('Ennio Tardini'),
     cidade('Parma'),
     capacidade(22.352).
@@ -688,7 +688,7 @@ club(lecce) :-
     golos_marcados(26),
     golos_sofridos(58),
     pontos(31),
-    fundacao('Mar 16, 1908'),
+    fundacao('16/03/1908'),
     estadio('Ettore Giardiniero'),
     cidade('Lecce'),
     capacidade(31.559).
@@ -701,7 +701,7 @@ club(fc_empoli) :-
     golos_marcados(32),
     golos_sofridos(57),
     pontos(31),
-    fundacao('Mar 30, 1920'),
+    fundacao('30/03/1920'),
     estadio('Carlo Castellani'),
     cidade('Empoli'),
     capacidade(19.847).
@@ -714,7 +714,7 @@ club(venezia) :-
     golos_marcados(30),
     golos_sofridos(53),
     pontos(29),
-    fundacao('Jan 1, 1907'),
+    fundacao('01/01/1907'),
     estadio('Pier Luigi Penzo'),
     cidade('Venezia'),
     capacidade(12.048).
@@ -727,7 +727,7 @@ club(monza) :-
     golos_marcados(28),
     golos_sofridos(67),
     pontos(18),
-    fundacao('Sep 1, 1912'),
+    fundacao('01/09/1912'),
     estadio('Brianteo'),
     cidade('Monza'),
     capacidade(17.102).
@@ -743,7 +743,7 @@ club(sporting_cp) :-
     golos_marcados(88),
     golos_sofridos(27),
     pontos(82),
-    fundacao('Jul 1, 1906'),
+    fundacao('01/07/1906'),
     estadio('Estádio_José_Alvalade'),
     cidade('Lisboa'),
     capacidade(50.095).
@@ -756,7 +756,7 @@ club(benfica) :-
     golos_marcados(84),
     golos_sofridos(28),
     pontos(80),
-    fundacao('Feb 28, 1904'),
+    fundacao('28/02/1904'),
     estadio('Estádio_da_Luz'),
     cidade('Lisboa'),
     capacidade(65.592).
@@ -769,7 +769,7 @@ club(fc_porto) :-
     golos_marcados(65),
     golos_sofridos(30),
     pontos(71),
-    fundacao('Sep 28, 1893'),
+    fundacao('28/09/1893'),
     estadio('Estádio_do_Dragão'),
     cidade('Porto'),
     capacidade(50.033).
@@ -782,7 +782,7 @@ club(sc_braga) :-
     golos_marcados(55),
     golos_sofridos(30),
     pontos(66),
-    fundacao('Jan 19, 1921'),
+    fundacao('19/01/1921'),
     estadio('Estádio_Municipal_de_Braga'),
     cidade('Braga'),
     capacidade(30.286).
@@ -795,7 +795,7 @@ club(santa_clara) :-
     golos_marcados(36),
     golos_sofridos(32),
     pontos(57),
-    fundacao('Jan 31, 1921'),
+    fundacao('31/01/1921'),
     estadio('Estádio_de_São_Miguel'),
     cidade('Ponta Delgada'),
     capacidade(12.5).
@@ -808,7 +808,7 @@ club(vit_guimaraes) :-
     golos_marcados(47),
     golos_sofridos(37),
     pontos(54),
-    fundacao('Sep 22, 1922'),
+    fundacao('22/09/1922'),
     estadio('Estádio_D._Afonso_Henriques'),
     cidade('Guimarães'),
     capacidade(30.029).
@@ -821,7 +821,7 @@ club(famalicao) :-
     golos_marcados(44),
     golos_sofridos(39),
     pontos(47),
-    fundacao('Aug 21, 1931'),
+    fundacao('21/08/1931'),
     estadio('Estádio_Municipal_de_Famalicão'),
     cidade('Vila Nova de Famalicão'),
     capacidade(5.186).
@@ -834,7 +834,7 @@ club(estoril) :-
     golos_marcados(48),
     golos_sofridos(53),
     pontos(46),
-    fundacao('May 17, 1939'),
+    fundacao('17/05/1939'),
     estadio('Estádio_António_Coimbra_da_Mota'),
     cidade('Estoril'),
     capacidade(5.1).
@@ -847,7 +847,7 @@ club(casa_pia) :-
     golos_marcados(39),
     golos_sofridos(44),
     pontos(45),
-    fundacao('Jul 3, 1920'),
+    fundacao('03/07/1920'),
     estadio('Estádio_Municipal_de_Rio_Maior'),
     cidade('Rio Maior'),
     capacidade(7.0).
@@ -860,7 +860,7 @@ club(moreirense) :-
     golos_marcados(42),
     golos_sofridos(50),
     pontos(40),
-    fundacao('Nov 1, 1938'),
+    fundacao('01/11/1938'),
     estadio('Estádio_C._J._de_Almeida_Freitas'),
     cidade('Moreira de Cónegos - Guimarães'),
     capacidade(6.15).
@@ -873,7 +873,7 @@ club(arouca) :-
     golos_marcados(35),
     golos_sofridos(49),
     pontos(38),
-    fundacao('Dec 25, 1951'),
+    fundacao('25/12/1951'),
     estadio('Estádio_Municipal_de_Arouca'),
     cidade('Arouca'),
     capacidade(5.6).
@@ -886,7 +886,7 @@ club(rio_ave) :-
     golos_marcados(39),
     golos_sofridos(55),
     pontos(38),
-    fundacao('May 10, 1939'),
+    fundacao('10/05/1939'),
     estadio('Estádio_do_Rio_Ave_FC'),
     cidade('Vila do Conde'),
     capacidade(5.3).
@@ -899,7 +899,7 @@ club(gil_vicente) :-
     golos_marcados(34),
     golos_sofridos(47),
     pontos(34),
-    fundacao('May 3, 1924'),
+    fundacao('03/05/1924'),
     estadio('Estádio_Cidade_de_Barcelos'),
     cidade('Barcelos'),
     capacidade(12.046).
@@ -912,7 +912,7 @@ club(nacional) :-
     golos_marcados(32),
     golos_sofridos(50),
     pontos(34),
-    fundacao('Dec 8, 1910'),
+    fundacao('08/12/1910'),
     estadio('Estádio_da_Madeira'),
     cidade('Funchal'),
     capacidade(5.2).
@@ -925,7 +925,7 @@ club(estrela_amadora) :-
     golos_marcados(24),
     golos_sofridos(50),
     pontos(29),
-    fundacao('Jan 22, 1932'),
+    fundacao('22/01/1932'),
     estadio('Estádio_José_Gomes'),
     cidade('Amadora'),
     capacidade(9.288).
@@ -938,7 +938,7 @@ club(farense) :-
     golos_marcados(25),
     golos_sofridos(46),
     pontos(27),
-    fundacao('Apr 1, 1910'),
+    fundacao('01/04/1910'),
     estadio('Estádio_de_São_Luís'),
     cidade('Faro'),
     capacidade(7.0).
@@ -951,7 +951,7 @@ club(avs_fs) :-
     golos_marcados(25),
     golos_sofridos(60),
     pontos(27),
-    fundacao('May 5, 2023'),
+    fundacao('05/05/2023'),
     estadio('Estádio_do_Clube_Desportivo_das_Aves'),
     cidade('Vila das Aves - Santo Tirso'),
     capacidade(6.23).
@@ -964,7 +964,7 @@ club(boavista) :-
     golos_marcados(24),
     golos_sofridos(59),
     pontos(24),
-    fundacao('Aug 1, 1903'),
+    fundacao('01/08/1903'),
     estadio('Estádio_do_Bessa_Século_XI'),
     cidade('Porto'),
     capacidade(28.263).
@@ -979,7 +979,7 @@ club(barcelona) :-
     golos_marcados(99),
     golos_sofridos(39),
     pontos(85),
-    fundacao('Nov 29, 1899'),
+    fundacao('29/11/1899'),
     estadio('Olímpic_Lluís_Companys'),
     cidade('Barcelona'),
     capacidade(55.926).
@@ -992,7 +992,7 @@ club(real_madrid) :-
     golos_marcados(76),
     golos_sofridos(38),
     pontos(81),
-    fundacao('Mar 6, 1902'),
+    fundacao('06/03/1902'),
     estadio('Santiago_Bernabéu'),
     cidade('Madrid'),
     capacidade(81.044).
@@ -1005,7 +1005,7 @@ club(atletico_madrid) :-
     golos_marcados(64),
     golos_sofridos(30),
     pontos(73),
-    fundacao('Apr 26, 1903'),
+    fundacao('26/04/1903'),
     estadio('Riyadh_Air_Metropolitano'),
     cidade('Madrid'),
     capacidade(70.46).
@@ -1018,7 +1018,7 @@ club(athletic_bilbao) :-
     golos_marcados(54),
     golos_sofridos(26),
     pontos(70),
-    fundacao('Jan 1, 1898'),
+    fundacao('01/01/1898'),
     estadio('San_Mamés'),
     cidade('Bilbao'),
     capacidade(53.289).
@@ -1031,7 +1031,7 @@ club(villarreal) :-
     golos_marcados(67),
     golos_sofridos(49),
     pontos(67),
-    fundacao('Mar 10, 1923'),
+    fundacao('10/03/1923'),
     estadio('La_Cerámica'),
     cidade('Villarreal'),
     capacidade(23.5).
@@ -1044,7 +1044,7 @@ club(real_betis) :-
     golos_marcados(56),
     golos_sofridos(49),
     pontos(59),
-    fundacao('Sep 12, 1907'),
+    fundacao('12/09/1907'),
     estadio('Benito_Villamarín'),
     cidade('Sevilla'),
     capacidade(60.721).
@@ -1057,7 +1057,7 @@ club(celta_de_vigo) :-
     golos_marcados(57),
     golos_sofridos(56),
     pontos(52),
-    fundacao('Aug 23, 1923'),
+    fundacao('23/08/1923'),
     estadio('Abanca_Balaídos'),
     cidade('Vigo'),
     capacidade(24.87).
@@ -1070,7 +1070,7 @@ club(rayo_vallecano) :-
     golos_marcados(41),
     golos_sofridos(45),
     pontos(51),
-    fundacao('May 29, 1924'),
+    fundacao('29/05/1924'),
     estadio('Estadio_de_Vallecas'),
     cidade('Madrid'),
     capacidade(14.708).
@@ -1083,7 +1083,7 @@ club(ca_osasuna) :-
     golos_marcados(47),
     golos_sofridos(51),
     pontos(51),
-    fundacao('Nov 17, 1920'),
+    fundacao('17/11/1920'),
     estadio('El_Sadar'),
     cidade('Pamplona'),
     capacidade(23.576).
@@ -1096,7 +1096,7 @@ club(rcd_mallorca) :-
     golos_marcados(35),
     golos_sofridos(44),
     pontos(47),
-    fundacao('Mar 5, 1916'),
+    fundacao('05/03/1916'),
     estadio('Mallorca_Son_Moix'),
     cidade('Palma de Mallorca'),
     capacidade(26.02).
@@ -1109,7 +1109,7 @@ club(real_sociedad) :-
     golos_marcados(35),
     golos_sofridos(44),
     pontos(46),
-    fundacao('Nov 30, 1908'),
+    fundacao('30/11/1908'),
     estadio('Reale_Arena'),
     cidade('San Sebastián'),
     capacidade(39.313).
@@ -1122,7 +1122,7 @@ club(valencia) :-
     golos_marcados(43),
     golos_sofridos(53),
     pontos(45),
-    fundacao('Mar 18, 1919'),
+    fundacao('18/03/1919'),
     estadio('Mestalla'),
     cidade('Valencia'),
     capacidade(49.43).
@@ -1135,7 +1135,7 @@ club(getafe) :-
     golos_marcados(33),
     golos_sofridos(37),
     pontos(42),
-    fundacao('Jul 8, 1983'),
+    fundacao('08/07/1983'),
     estadio('Coliseum'),
     cidade('Getafe'),
     capacidade(16.8).
@@ -1148,7 +1148,7 @@ club(alaves) :-
     golos_marcados(37),
     golos_sofridos(47),
     pontos(41),
-    fundacao('Jan 23, 1921'),
+    fundacao('23/01/1921'),
     estadio('Mendizorroza'),
     cidade('Vitoria-Gasteiz'),
     capacidade(19.84).
@@ -1161,7 +1161,7 @@ club(girona) :-
     golos_marcados(44),
     golos_sofridos(56),
     pontos(41),
-    fundacao('Jul 23, 1930'),
+    fundacao('23/07/1930'),
     estadio('Montilivi'),
     cidade('Girona'),
     capacidade(14.624).
@@ -1174,7 +1174,7 @@ club(sevilla_fc) :-
     golos_marcados(40),
     golos_sofridos(51),
     pontos(41),
-    fundacao('Jan 25, 1890'),
+    fundacao('25/01/1890'),
     estadio('Ramón_Sánchez-Pizjuán'),
     cidade('Sevilla'),
     capacidade(43.883).
@@ -1187,7 +1187,7 @@ club(espanyol) :-
     golos_marcados(38),
     golos_sofridos(51),
     pontos(39),
-    fundacao('Oct 20, 1900'),
+    fundacao('20/10/1900'),
     estadio('RCDE_Stadium'),
     cidade('Cornellà de Llobregat'),
     capacidade(40.5).
@@ -1200,7 +1200,7 @@ club(cd_leganes) :-
     golos_marcados(36),
     golos_sofridos(56),
     pontos(37),
-    fundacao('Jun 23, 1928'),
+    fundacao('23/06/1928'),
     estadio('Butarque'),
     cidade('Leganés'),
     capacidade(12.454).
@@ -1213,7 +1213,7 @@ club(ud_las_palmas) :-
     golos_marcados(40),
     golos_sofridos(59),
     pontos(32),
-    fundacao('Aug 22, 1949'),
+    fundacao('22/08/1949'),
     estadio('Estadio_de_Gran_Canaria'),
     cidade('Las Palmas de Gran Canaria'),
     capacidade(32.4).
@@ -1226,7 +1226,7 @@ club(real_valladolid) :-
     golos_marcados(26),
     golos_sofridos(87),
     pontos(16),
-    fundacao('Jun 20, 1928'),
+    fundacao('20/06/1928'),
     estadio('José_Zorrilla'),
     cidade('Valladolid'),
     capacidade(27.618).
@@ -1554,4 +1554,3 @@ club(X) :-
     cidade(C),
     capacidade(Ca),
     format('O ge ~w tem a posição ~w, com ~w vitórias, ~w empates, ~w derrotas, ~w gols marcados, ~w gols sofridos, ~w pontos, fundado em ~w, no estádio ~w em ~w, com capacidade de ~w pessoas.', [X, P, V, E, D, GM, GS, Po, F, Es, C, Ca]).
-
